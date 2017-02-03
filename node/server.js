@@ -27,7 +27,7 @@ app.set('twig options', {
 //});
 
 app.get('/', function(req, res){
-    res.render('test', {
+    res.render('tempLanding', {
         message : "Hello World"
     });
 
