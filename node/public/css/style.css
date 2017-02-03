@@ -1,0 +1,28 @@
+.flexRow {
+  display: flex;
+  flex-flow: row; }
+
+.flexHCenter {
+  display: flex;
+  justify-content: center; }
+
+#navbar {
+  background-color: #364b71; }
+
+#navList {
+  list-style: none;
+  padding: 0px; }
+
+#navList li {
+  padding: 10px 15px;
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+  transition-duration: .75s; }
+
+#navList li:hover {
+  background-color: white;
+  color: #364b71;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
