@@ -11,8 +11,7 @@ let static = require('serve-static');
 //app.configure(function(){
 app.set('views', __dirname + '/../site/views');
 app.use('/public', express.static(__dirname + '/public'));
-// app.use("/css", express.static(__dirname + '../node/css/'));
-// app.use("/javascript", express.static(__dirname + '../node/javascript/'));
+app.use('/images', express.static(__dirname + '../images'));
 
 let Twig = require('twig');
 

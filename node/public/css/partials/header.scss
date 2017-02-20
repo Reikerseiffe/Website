@@ -1,7 +1,32 @@
 #header{
-  height:100vh;
-  width:100%;
-  background-image: url("../images/codeWallpaper.png");
-  background-size: cover;
-  background-position: center center;
+  background-color:$mainBlue;
+  height: 100vh;
+}
+
+
+
+#headerText{
+  height:100%;
+  width:50%;
+  padding:65px 65px;
+  text-align: center;
+  color:white;
+  display: flex;
+  align-items: center;
+
+  #headerTextWrapper{
+
+    h1{
+      font-size: 75px;
+      font-weight: 200;
+    }
+  }
+
+}
+
+#headerImage{
+  height:100%;
+  width:50%;
+  background: url("public/images/codeWallpaper.png") no-repeat center center;
+  background-size:cover;
 }
